@@ -1,0 +1,50 @@
+.App {
+  background-color: #eeeeee60;
+}
+
+/* Card */
+.main-grid {
+  background-color: white;
+  border: 1px solid hsl(120, 89%, 7%);
+  box-shadow: rgba(10, 64, 214, 0.384) -5px 5px,
+    rgba(69, 99, 180, 0.162) -10px 10px, rgba(169, 153, 180, 0.144) -15px 15px,
+    rgba(67, 64, 83, 0.075) -20px 20px, rgba(68, 15, 49, 0.021) -25px 25px;
+  z-index: 1;
+}
+
+.main-grid h5 {
+  font-family: "Narkisim";
+}
+
+.Credits {
+  position: absolute;
+  min-height: 45%;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  z-index: -1;
+}
+
+/* Breaking point for credits */
+@media only screen and (max-height: 650px) {
+  .Credits {
+    position: relative;
+  }
+}
+
+.Credits span {
+  margin: 0;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-family: "Segoe Print";
+  font-size: 1rem;
+}
+
+.SearchForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-size {
+  font-weight: 600 !important;
+}

@@ -1,0 +1,56 @@
+/* Main grid */
+.dark {
+  background-color: #202124;
+  color: white;
+}
+
+/* Card */
+.main-grid-dark {
+  background-color: #393d4963;
+  border: 2px solid #4b4e526c;
+  box-shadow: rgba(10, 64, 214, 0.274) -5px 5px,
+    rgba(69, 99, 180, 0.116) -10px 10px, rgba(70, 68, 71, 0.116) -15px 15px,
+    rgba(67, 64, 83, 0.096) -20px 20px, rgba(126, 126, 126, 0.027) -25px 25px;
+
+  z-index: 1;
+}
+
+.main-grid-dark h5 {
+  font-family: "Narkisim";
+}
+
+.Credits-dark {
+  position: absolute;
+  min-height: 45%;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  z-index: -1;
+}
+
+.Credits-dark span {
+  margin: 0;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-family: "Segoe Print";
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+@media only screen and (max-height: 650px) {
+  .Credits-dark {
+    position: relative;
+  }
+}
+
+.dark-label label {
+  color: aliceblue;
+}
+
+.dark-label input {
+  color: aliceblue;
+}
+
+/* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border: 0 solid #164e976c !important;
+} */
